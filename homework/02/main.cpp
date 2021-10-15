@@ -54,7 +54,7 @@ std::vector<std::pair<double, double>> test(const std::vector<size_t> sizes, con
         }
         mmSum /= NUM_TESTS;
         mvSum /= NUM_TESTS;
-        std::cout << s << '\t' << mmSum << '\t' << mvSum << std::endl;
+        std::cout << "\tsize: " << s << '\t' << mmSum << '\t' << mvSum << std::endl;
         result.emplace_back(std::make_pair(mmSum, mvSum));
     }
     return result;
