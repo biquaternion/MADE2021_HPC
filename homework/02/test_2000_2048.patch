@@ -1,0 +1,13 @@
+diff --git a/homework/02/main.cpp b/homework/02/main.cpp
+index e05a6d2..d2441a0 100644
+--- a/homework/02/main.cpp
++++ b/homework/02/main.cpp
+@@ -71,7 +71,7 @@ void printResult(const std::vector<T> &result, const std::vector<size_t> &sizes)
+ }
+ 
+ int main(int argc, char **argv) {
+-    const std::vector<size_t> sizes = {2, 3, 500, 512, 1000, 1024};
++    const std::vector<size_t> sizes = {2, 3, 500, 512, 1000, 1024, 2000, 2048};
+ 
+     if (argc > 1) {
+         if (strcmp(argv[1], "float") == 0) {
